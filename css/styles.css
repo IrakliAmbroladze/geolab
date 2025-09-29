@@ -135,3 +135,14 @@ section {
   margin-right: 30px;
   text-align: left;
 }
+.line {
+  width: 200px;
+  height: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #14203e33;
+}
+
+.section-title {
+  padding: 0 15px;
+}
