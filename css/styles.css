@@ -12,8 +12,9 @@ header {
   padding: 25px 45px;
 }
 main {
-  padding: 127px 131px;
+  padding: 131px 0 127px;
   text-align: center;
+  background-color: #fffcf8;
 }
 
 .navigation {
@@ -84,12 +85,17 @@ h1 {
   font-weight: bold;
   padding: 0;
   margin: 0;
+  width: 600px;
+  display: inline-block;
 }
 
 .sub-header {
   font-weight: 400;
   font-size: 22px;
   color: #14203e;
+  margin: 30px 0 41px;
+  width: 600px;
+  display: inline-block;
 }
 
 .section-header {
@@ -104,8 +110,16 @@ h1 {
   color: #14203e;
 }
 
+.card {
+  display: inline-block;
+}
+
 .date {
   font-weight: 400;
   font-size: 14px;
   color: #14203e;
+}
+
+section {
+  text-align: center;
 }
