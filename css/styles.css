@@ -11,6 +11,10 @@ body {
 header {
   padding: 25px 45px;
 }
+main {
+  padding: 127px 131px;
+  text-align: center;
+}
 
 .navigation {
   display: inline-block;
@@ -54,6 +58,15 @@ a {
   padding: 13px 30px;
 }
 
+.freeTrialMain {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  background-color: #14203e;
+  border: none;
+  border-radius: 10px;
+  padding: 25px 40px;
+}
 .nav-item {
   color: #14203e;
   text-decoration: none;
@@ -69,6 +82,8 @@ h1 {
   color: #14203e;
   font-size: 66px;
   font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 
 .sub-header {
