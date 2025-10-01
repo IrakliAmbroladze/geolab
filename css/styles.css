@@ -16,6 +16,10 @@ main {
   padding: 131px 0 127px;
   text-align: center;
   background-color: #fffcf8;
+  background-image: url("../images/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navigation {
