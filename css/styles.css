@@ -96,3 +96,20 @@ li {
 .title .description {
   line-height: 24px;
 }
+
+.destination {
+  text-align: center;
+  margin: 76px 0;
+}
+
+.title-choose {
+  color: #cd1a40;
+  font-size: 46px;
+}
+
+.title-destination {
+  color: #1e1e1e;
+  font-size: 65px;
+  text-transform: uppercase;
+  margin: 8px;
+}
