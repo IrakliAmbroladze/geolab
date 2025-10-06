@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
   font-family: "Work Sans", sans-serif;
@@ -11,11 +12,16 @@ body {
 
 header {
   text-align: center;
-  padding: 20px 93px;
 }
 
 .clicker-script-regular {
   font-family: "Clicker Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.water-brush-regular {
+  font-family: "Water Brush", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -34,11 +40,14 @@ header {
 }
 
 .section-main {
+  position: relative;
   height: 768px;
   background: linear-gradient(rgba(0, 0, 0, 0.4)), url("../images/cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  vertical-align: middle;
+  padding: 20px 93px;
 }
 
 .navigation {
@@ -67,4 +76,23 @@ li {
 
 .active {
   color: tomato;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  color: white;
+  transform: translate(0, -50%);
+}
+
+.title .title1 {
+  font-size: 46px;
+}
+
+.title .main-title {
+  font-size: 86px;
+  margin: 16px 0;
+}
+.title .description {
+  line-height: 24px;
 }
