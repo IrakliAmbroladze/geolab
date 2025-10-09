@@ -54,3 +54,21 @@ header {
 .user-icon img {
   margin: auto;
 }
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-left,
+.main-right {
+  height: 535px;
+  background-color: #f2f2f2f2;
+}
+.main-left {
+  width: 646px;
+}
+
+.main-right {
+  width: 593px;
+}
