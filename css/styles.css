@@ -188,3 +188,48 @@ header {
 .heart-icon img {
   margin: auto;
 }
+.description-section {
+  margin-top: 109px;
+  display: flex;
+  gap: 89px;
+}
+
+.description {
+  width: 777px;
+}
+.description h2 {
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.description p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.included {
+  margin-top: 53px;
+  display: flex;
+  flex-direction: column;
+}
+
+.included h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.included li {
+  list-style: disc inside;
+}
+.included select {
+  margin-top: 24.5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
