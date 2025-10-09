@@ -54,8 +54,11 @@ header {
 .user-icon img {
   margin: auto;
 }
-
-main {
+.main {
+  margin-top: 60px;
+}
+.main,
+.main-left {
   display: flex;
   justify-content: space-between;
 }
@@ -63,10 +66,20 @@ main {
 .main-left,
 .main-right {
   height: 535px;
-  background-color: #f2f2f2f2;
 }
 .main-left {
   width: 646px;
+}
+
+.main-left img {
+  border-radius: 10px;
+  display: block; /* added beacause of 2.5px was added automatically*/
+}
+
+.main-left ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main-right {
