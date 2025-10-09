@@ -1,78 +1,109 @@
 <!doctype html>
 <html>
   <head>
-    <title>homework2</title>
+    <title>homework6</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <main class="section-main">
-      <header>
-        <a href="/" class="clicker-script-regular logo">Listee Travel</a>
-        <nav class="navigation font-work-sans font-300">
+    <header class="container">
+      <a href="/" class="logo">homely.</a>
+      <div class="right-side-header">
+        <nav class="header-nav">
           <ul>
             <li>
-              <a href="#" class="nav-item active">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="#" class="nav-item">About Us</a>
+              <a href="#">About</a>
             </li>
             <li>
-              <a href="#" class="nav-item">Destination</a>
+              <a href="#">Shop</a>
             </li>
             <li>
-              <a href="#" class="nav-item">Tours</a>
-            </li>
-            <li>
-              <a href="#" class="nav-item">Blogs</a>
-            </li>
-            <li>
-              <a href="#" class="nav-item">Shop</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </nav>
-        <button class="btn p-x-25 font-700">SignUp</button>
-      </header>
-      <div class="title">
-        <h2 class="water-brush-regular title1">Explorer and Travel</h2>
-        <h1 class="font-700 main-title">Let's Go Now</h1>
-        <p style="width: 580px" class="description">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
-        </p>
+        <div class="cart-icon">
+          <img src="images/cart-icon.svg" alt="cart" />
+        </div>
+        <div class="user-icon">
+          <img src="images/user-icon.svg" alt="user" />
+        </div>
+      </div>
+    </header>
+    <main class="main container">
+      <div class="main-left">
+        <ul>
+          <li><img src="images/product-img-1.jpg" alt="image-1" /></li>
+          <li><img src="images/product-img-2.jpg" alt="image-2" /></li>
+          <li><img src="images/product-img-3.jpg" alt="image-3" /></li>
+          <li><img src="images/product-img-4.jpg" alt="image-4" /></li>
+          <li><img src="images/product-img-5.jpg" alt="image-5" /></li>
+        </ul>
+        <img src="images/product-img.jpg" alt="product" />
+      </div>
+      <div class="main-right">
+        <div>
+          <h1>Areni 57.1'' Upholstered Loveseat</h1>
+          <div class="rating">
+            <ul>
+              <li><img src="images/star-color.svg" alt="star" /></li>
+              <li><img src="images/star-color.svg" alt="star" /></li>
+              <li><img src="images/star-color.svg" alt="star" /></li>
+              <li><img src="images/star-color.svg" alt="star" /></li>
+              <li><img src="images/star-black.svg" alt="star" /></li>
+            </ul>
+            <span>3,345</span>
+          </div>
+        </div>
+        <div class="price">$549.99</div>
+        <div class="colors">
+          <h3>colors</h3>
+
+          <div>
+            <div class="color color-1"></div>
+            <div class="color color-2"></div>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="cart-and-heart">
+            <button class="add-to-cart">Add to Cart</button>
+
+            <div class="heart-icon">
+              <img src="images/heart.svg" alt="heart" />
+            </div>
+          </div>
+          <button class="buy-now">Buy Now</button>
+        </div>
       </div>
     </main>
-    <section class="destination-container">
-      <h2 class="title-choose water-brush-regular">Choose your</h2>
-      <h2 class="title-destination">Destination</h2>
-      <div class="left-card">
-        <div class="card-text">
-          <h3 class="card-title water-brush-regular">Malaysia</h3>
-          <a class="btn p-x-17">16 hours</a>
-        </div>
+    <section class="description-section container">
+      <div class="description">
+        <h2>Description</h2>
+        <p>
+          Add a contemporary design and a pop of colour to a cozy seating area
+          or your living room with this chaise-inspired loveseat. We love all
+          the mid-century details from the low-profile back and round arm to the
+          sleek, black-finished tapered legs. The compact frame is made from
+          engineered wood, and it's wrapped in polyester fabric in a solid
+          colour of your choice. Inside, this piece is filled with foam and
+          pocket springs to support you while you relax with a good book. A
+          yellow toss pillow with a button tuft in the middle gives it an extra
+          layer of colour and texture. But the best part? This love seat comes
+          with a built-in wooden side table for drinks and snacks. The cushion
+          covers are not removable.
+        </p>
       </div>
-      <div class="right-card">
-        <div class="right-upper-cards">
-          <div class="upper-left-card bg-center bg-cover bg-no-repeat">
-            <div class="card-text">
-              <h3 class="card-title water-brush-regular">Dubai</h3>
-              <a class="btn p-x-17">16 hours</a>
-            </div>
-          </div>
-          <div class="upper-right-card">
-            <div class="card-text">
-              <h3 class="card-title water-brush-regular">Greece</h3>
-              <a class="btn p-x-17">16 hours</a>
-            </div>
-          </div>
-        </div>
-        <div class="right-down-card">
-          <div class="card-text">
-            <h3 class="card-title water-brush-regular">Singapore</h3>
-            <a class="btn p-x-17">16 hours</a>
-          </div>
-        </div>
+      <div class="included">
+        <h2>What is included?</h2>
+        <ul>
+          <li>Toss Pillow</li>
+        </ul>
+        <select>
+          <option>Features</option>
+        </select>
       </div>
     </section>
     <footer></footer>
